@@ -1,0 +1,25 @@
+{
+    "ros.distro": "foxy",
+    "colcon.provideTasks": true,
+    "files.associations": {
+      "*.repos": "yaml",
+      "*.world": "xml",
+      "*.xacro": "xml"
+    },
+    "python.autoComplete.extraPaths": [
+      "/home/tjyoon/tj_robotics_ws/build/unity_slam_example",
+      "/home/tjyoon/tj_robotics_ws/install/unity_slam_example/lib/python3.10/site-packages",
+      "/home/tjyoon/tj_robotics_ws/build/ros_tcp_endpoint",
+      "/home/tjyoon/tj_robotics_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages",
+      "/opt/ros/humble/lib/python3.10/site-packages",
+      "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+      "/home/tjyoon/tj_robotics_ws/build/unity_slam_example",
+      "/home/tjyoon/tj_robotics_ws/install/unity_slam_example/lib/python3.10/site-packages",
+      "/home/tjyoon/tj_robotics_ws/build/ros_tcp_endpoint",
+      "/home/tjyoon/tj_robotics_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages",
+      "/opt/ros/humble/lib/python3.10/site-packages",
+      "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+  }
