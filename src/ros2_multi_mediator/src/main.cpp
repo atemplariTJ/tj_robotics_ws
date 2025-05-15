@@ -6,6 +6,7 @@ int main(int argc, char* argv[]) {
 
     auto node = std::make_shared<UnifiedMediatorNode>();
     rclcpp::spin(node);
+    //yes
 
     rclcpp::shutdown();
     return 0;
